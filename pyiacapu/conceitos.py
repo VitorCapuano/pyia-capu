@@ -29,6 +29,17 @@ class IAList:
         """,
 
     @classmethod
+    def machine_learning(cls):
+        return """"MachineLearning ou aprendizado de máquina é o campo de estudo de programas de computadores que melhoram seu desempenho de acordo com sua experiência (Tom Mitchell,
+            - Do ponto de vista da IA, seu foco é permitir que agentes artificiais melhorem os resultados de sua medida de desempenho de acordo
+            com dados “inputados” por operadores humanos ou capturados ao
+            longo da sua interação com o ambiente, sem a necessidade de
+            programá-lo explicitamente para aqueles resultados.
+             Aprendizado indutivo: aprender uma regra geral a partir de
+            exemplos
+        """
+
+    @classmethod
     def all(cls):
         return {
             "1. Reconhecimento de padrões?": cls.reconhecimento_padroes(),
@@ -41,5 +52,6 @@ class IAList:
             """
                 4. Classificadores lineares e não-lineares? Pesquise e
                 dê um exemplo de cada. O kNN encontra-se em que categoria?
-            """: cls.classificação_linear_nao_linear()
+            """: cls.classificação_linear_nao_linear(),
+            "Machine Learning": cls.machine_learning()
         }
