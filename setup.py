@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='pyia-capu',
+    name='pyiacapu',
     description='Ia to help',
     long_description='Ia to help students',
     version='0.1.0',
@@ -15,6 +15,6 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3'
     ],
-    packages=['pyia-capu'],
+    packages=['pyiacapu'],
     install_requires=['pandas>=0.23.4']
 )
