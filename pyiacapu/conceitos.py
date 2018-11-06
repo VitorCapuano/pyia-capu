@@ -2,7 +2,7 @@ class IAList:
 
     @classmethod
     def reconhecimento_padroes(cls):
-        return "Classificação ou Reconhecimento de padrões é a tarefa de associar um conjunto de dados a um rótulo, que representa uma classe determinada. Por exemplo, identificar os objetos presentes em uma imagem ou identificar uma pessoa pela voz."
+        return "Associar um conjunto de dados a um rótulo, que representa uma classe determinada. Por exemplo, identificar os objetos presentes em uma imagem ou identificar uma pessoa pela voz."
 
     @classmethod
     def etapas_reconhecimento_padroes(cls):

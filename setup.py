@@ -16,5 +16,5 @@ setup(
         'Programming Language :: Python :: 3'
     ],
     packages=['pyiacapu'],
-    install_requires=['pandas>=0.23.4']
+    install_requires=['pandas>=0.23.4', 'scipy>=1.1.0']
 )
