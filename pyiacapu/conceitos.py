@@ -117,7 +117,7 @@ class IAList:
                 4. Classificadores lineares e não-lineares? Pesquise e
                 dê um exemplo de cada. O kNN encontra-se em que categoria?
             """: cls.classificação_linear_nao_linear(),
-            "Machine Learning": cls.machine_learning()
+            "Machine Learning": cls.machine_learning(),
             "Oferflitting": cls.overflit(),
             "Arquitetura MLP": cls.mlp_architeture(),
             "Camada entrada e saida": cls.camada_entrada_saida(),
