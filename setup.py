@@ -4,7 +4,7 @@ setup(
     name='pyiacapu',
     description='Ia to help',
     long_description='Ia to help students',
-    version='0.2.0',
+    version='0.2.3',
     url='https://github.com/VitorCapuano/pyia-capu',
     author='Vitor Capuano',
     author_email='capuano.vitor@gmail.com',

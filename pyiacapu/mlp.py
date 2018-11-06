@@ -55,7 +55,7 @@ class MLPClassifier:
                 'baias': 2
             },
 
-            
+
         ]
         '''
         self.x = x
@@ -83,3 +83,4 @@ class MLPClassifier:
             )
             calculos.append(funcao_ativacao(resultado))
         return calculos
+    
